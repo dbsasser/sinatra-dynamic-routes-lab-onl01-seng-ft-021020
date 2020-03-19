@@ -7,5 +7,6 @@ class App < Sinatra::Base
     @name = name
     <% @name.reverse %>
     "#{@name}"
+  end
 
 end
